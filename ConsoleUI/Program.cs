@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Business.Concrete;
+using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities;
 
@@ -16,7 +18,6 @@ namespace ConsoleUI
             {
                 Console.WriteLine(car.Description);
             }
-            Console.ReadLine();
         }
         
     }
